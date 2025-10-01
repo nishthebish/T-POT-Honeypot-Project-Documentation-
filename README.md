@@ -21,10 +21,10 @@ I deployed T-Pot on Google Cloud to capture and analyze opportunistic internet a
 ## Architecture & Environment
 - Provider: Google Cloud Platform (GCP)  
 - VM: Ubuntu 24.04 LTS, 4 vCPU, 16 GB RAM, 200 GB SSD  
-- Network: Dedicated subnet / network tag `tpot`  
+- Network: Dedicated subnet/network tag `tpot`  
 - T-Pot version: telekom-security/tpotce (deployed Oct 01 2025)  
 
-**Architecture diagram:** `docs/architecture-diagram.png` (👉 *add your diagram here later*)  
+**Architecture diagram:** `docs/architecture-diagram.png` (👉 add your diagram here later)  
 
 ---
 
