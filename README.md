@@ -43,7 +43,9 @@ Below is the main landing dashboard used to monitor honeypot activity.
 **Honeypot Platform:** T-Pot (telekom-security/tpotce)
 **Deployment Date:** October 1, 2025
 
-*Architecture diagram:* `docs/architecture-diagram.png` *(to be added)*
+## Architecture Diagram
+
+![Architecture Diagram](docs/architecture-diagram.png)
 
 ---
 
