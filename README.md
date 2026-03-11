@@ -33,7 +33,7 @@ This repository includes sanitized setup steps, screenshots, and a reporting tem
 ---
 
 ## Quick Status
-- **T-Pot Dashboard:** https://34.172.240.132:64297  
+- **T-Pot Dashboard:** 
   *(Self-signed certificate — browser security warning expected)*  
 - **Logs:** Indexed in Elastic and accessible via Kibana dashboards  
 - **PCAP Storage:** `/home/<user>/artifacts/pcap/` (rotated and archived)  
