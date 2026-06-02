@@ -1,0 +1,111 @@
+{
+  "total_connections": 395552,
+  "unique_src_ips": 141,
+  "scanner_ips": 9,
+  "top_ports": [
+    [
+      "80",
+      1716
+    ],
+    [
+      "53",
+      1367
+    ],
+    [
+      "443",
+      1297
+    ],
+    [
+      "0",
+      1192
+    ],
+    [
+      "14",
+      267
+    ],
+    [
+      "22",
+      102
+    ],
+    [
+      "445",
+      81
+    ],
+    [
+      "7",
+      58
+    ],
+    [
+      "23",
+      56
+    ],
+    [
+      "25",
+      52
+    ]
+  ],
+  "http_requests": 3933,
+  "http_methods": {
+    "GET": 3865,
+    "POST": 55,
+    "OPTIONS": 4,
+    "HEAD": 9
+  },
+  "suspicious_user_agents": [
+    "python-requests/2.18.4",
+    "curl/7.54.0"
+  ],
+  "dns_queries": 3146,
+  "unique_domains": 205,
+  "top_domains": [
+    [
+      "ise.wrccdc.org",
+      998
+    ],
+    [
+      "safebrowsing-cache.google.com",
+      402
+    ],
+    [
+      "pkg.cdn.trueos.org",
+      274
+    ],
+    [
+      "videosearch.ubuntu.com",
+      138
+    ],
+    [
+      "daisy.ubuntu.com",
+      60
+    ],
+    [
+      "www.google.com",
+      46
+    ],
+    [
+      "client.wns.windows.com",
+      40
+    ],
+    [
+      "store.oompa.loompa",
+      36
+    ],
+    [
+      "goldenticket.oompa.loompa",
+      36
+    ],
+    [
+      "detectportal.firefox.com",
+      34
+    ]
+  ],
+  "weird_events": {
+    "TCP_ack_underflow_or_misorder": 1,
+    "TCP_seq_underflow_or_misorder": 1,
+    "invalid_http_09_request_method": 4,
+    "data_after_reset": 1
+  },
+  "smb_connections": 3,
+  "generated": "2026-06-02T04:03:19.040110Z",
+  "total_iocs": 21
+}

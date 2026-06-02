@@ -1,0 +1,22 @@
+type,indicator,count,description,mitre
+scanner_ip,10.237.102.3,78742,High-volume source: 78742 connections,T1046 - Network Service Scanning
+scanner_ip,10.147.172.39,78734,High-volume source: 78734 connections,T1046 - Network Service Scanning
+scanner_ip,10.222.236.214,70708,High-volume source: 70708 connections,T1046 - Network Service Scanning
+scanner_ip,10.236.58.83,57555,High-volume source: 57555 connections,T1046 - Network Service Scanning
+scanner_ip,10.192.135.181,44331,High-volume source: 44331 connections,T1046 - Network Service Scanning
+scanner_ip,10.255.81.100,32625,High-volume source: 32625 connections,T1046 - Network Service Scanning
+scanner_ip,10.191.170.154,19414,High-volume source: 19414 connections,T1046 - Network Service Scanning
+scanner_ip,10.131.40.249,6294,High-volume source: 6294 connections,T1046 - Network Service Scanning
+scanner_ip,10.128.0.210,1109,High-volume source: 1109 connections,T1046 - Network Service Scanning
+suspicious_user_agent,python-requests/2.18.4,42,Scanning/automation tool user-agent detected,T1595 - Active Scanning
+suspicious_user_agent,curl/7.54.0,442,Scanning/automation tool user-agent detected,T1595 - Active Scanning
+anomalous_traffic,10.47.3.100,1,Zeek weird event: TCP_ack_underflow_or_misorder,T1036 - Masquerading / Evasion
+anomalous_traffic,10.47.3.100,1,Zeek weird event: TCP_seq_underflow_or_misorder,T1036 - Masquerading / Evasion
+anomalous_traffic,10.128.0.235,1,Zeek weird event: invalid_http_09_request_method,T1036 - Masquerading / Evasion
+anomalous_traffic,10.128.0.235,1,Zeek weird event: invalid_http_09_request_method,T1036 - Masquerading / Evasion
+anomalous_traffic,10.128.0.235,1,Zeek weird event: invalid_http_09_request_method,T1036 - Masquerading / Evasion
+anomalous_traffic,10.128.0.235,1,Zeek weird event: invalid_http_09_request_method,T1036 - Masquerading / Evasion
+anomalous_traffic,10.128.0.252,1,Zeek weird event: data_after_reset,T1036 - Masquerading / Evasion
+smb_lateral_movement,10.128.0.210,1,SMB share access: \\\\10.47.3.218\\IPC$,T1021.002 - Remote Services: SMB/Windows Admin Shares
+smb_lateral_movement,10.128.0.210,1,SMB share access: \\\\10.47.3.218\\IPC$,T1021.002 - Remote Services: SMB/Windows Admin Shares
+smb_lateral_movement,10.128.0.218,1,SMB share access: \\\\10.47.1.218\\IPC$,T1021.002 - Remote Services: SMB/Windows Admin Shares
